@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <title>Order</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="d-flex flex-grow-1">
+                <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+                <a class="navbar-brand" href="index.html">TOHF</a>
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"> 
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbar">
+                <div class="navbar-nav ml-auto flex-nowrap">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="cars.html" class="nav-item nav-link">Cars</a>
+                    <a href="order.html" class="nav-item nav-link active">Order</a>
+                    <a href="history.html" class="nav-item nav-link">History</a>
+                    <a href="cte.html" class="nav-item nav-link">CTE</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container my-5">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="inputCar">Car</label>
+                        <select id="inputCar" class="form-control">
+                            <option selected>TFX 1660Ti</option>
+                            <option>TFX 1770Ti</option>
+                            <option>TFX 1880Ti</option>
+                            <option>TFX 1990Ti</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputExColor">Exterior Color</label>
+                        <select id="inputExColor" class="form-control">
+                            <option selected>White</option>
+                            <option>Black</option>
+                            <option>Blue</option>
+                            <option>Red</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputColor">Wheels</label>
+                        <select id="inputColor" class="form-control">
+                            <option selected>Normal</option>
+                            <option>Aerodynamic</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputInColor">Interior Color</label>
+                        <select id="inputInColor" class="form-control">
+                            <option>White</option>
+                            <option selected>Black</option>
+                            <option>Blue</option>
+                            <option>Red</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputSeat">Seat Type</label>
+                        <select id="inputSeat" class="form-control">
+                            <option selected>Cushion</option>
+                            <option>Leather</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputFirstName">First Name</label>
+                        <input type="text" class="form-control" id="inputFirstName" placeholder="Joe">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputLastName">Last Name</label>
+                        <input type="text" class="form-control" id="inputLastName" placeholder="Mama">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="example@email.com">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Phone Number</label>
+                        <input type="tel" class="form-control" id="inputPhone" placeholder="000-000-0000">
+                    </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control">
+                            <option>Alabama</option>
+                            <option>Alaska</option>
+                            <option>Arizona</option>
+                            <option>Arkansas</option>
+                            <option>California</option>
+                            <option>Colorada</option>
+                            <option>Connecticut</option>
+                            <option>Delaware</option>
+                            <option>Florida</option>
+                            <option>Georgia</option>
+                            <option>Hawaii</option>
+                            <option>Idaho</option>
+                            <option>Illinois</option>
+                            <option>Indiana</option>
+                            <option>Iowa</option>
+                            <option>Kansas</option>
+                            <option>Kentucky</option>
+                            <option>Louisiana</option>
+                            <option>Maine</option>
+                            <option>Maryland</option>
+                            <option>Massachusetts</option>
+                            <option>Michigan</option>
+                            <option>Minnesota</option>
+                            <option>Mississippi</option>
+                            <option>Missouri</option>
+                            <option>Montana</option>
+                            <option>Nebraska</option>
+                            <option>Nevada</option>
+                            <option>New Hampshire</option>
+                            <option>New Jersey</option>
+                            <option>New Mexico</option>
+                            <option>New York</option>
+                            <option>North Carolina</option>
+                            <option>North Dakota</option>
+                            <option>Ohio</option>
+                            <option>Oklahoma</option>
+                            <option>Oregon</option>
+                            <option>Pannsylvania</option>
+                            <option>Rhode Island</option>
+                            <option>South Carolina</option>
+                            <option>South Dakota</option>
+                            <option>Tennessee</option>
+                            <option selected>Texas</option>
+                            <option>Utah</option>
+                            <option>Vermont</option>
+                            <option>Virginia</option>
+                            <option>Washington</option>
+                            <option>West Virginia</option>
+                            <option>Wisconsin</option>
+                            <option>Wyoming</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">I would like to be sent newsletters</label>
+                    </div>
+                </div>
+                <!-- <a class="btn btn-primary" href="index.html">Confirm Order</a> -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal">Confirm Order</button>
+            </form>
+        </div>
+
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalLabel">Success!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>An email has been sent to you. Follow the instructions there to complete your order.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-dark p-3">
+            <div>
+                <a href="https://github.com/MySystemLagz/TSA_Website" class="text-uppercase mr-3" target="_blank">GITHUB</a>
+                <a href="https://blansonhs.aldineisd.org" class="text-uppercase mr-3" target="_blank">Blanson CTE</a>
+                <a href="https://aldineisd.org" class="text-uppercase mr-3" target="_blank">Aldine ISD</a>
+                <a href="https://tsaweb.org" class="text-uppercase mr-3" target="_blank">TSA</a>
+                <a href="leap-report-state-competition.pdf" class="text-uppercase mr-3" target="_blank" download>LEAP Report</a>
+            </div>
+            <div>
+                <p class="text-secondary m-1">Website primarily created with <a class="text-white-50" href="https://getbootstrap.com" target="_blank">Bootstrap 4</a></p>
+                <p class="text-secondary m-1">Favicon made by <a class="text-white-50" href="https://www.flaticon.com/authors/simpleicon" target="_blank">SimpleIcon</a> from <a class="text-white-50" href="https://www.flaticon.com" target="_blank">www.flaticon.com</a> is licensed by <a class="text-white-50" href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a></p>
+                <p class="text-secondary m-1">Music from Jukedeck - create your own at <a class="text-white-50" href="http://jukedeck.com" target="_blank">http://jukedeck.com</a></p>
+                <p class="text-secondary m-1">Background image, "<a class="text-white-50" href="https://www.toptal.com/designers/subtlepatterns/japanese-sayagata/" target="_blank">Japanese Sayagata</a>" by <a class="text-white-50" href="http://olgalibby.com/" target="_blank">Olga Libby</a> is licensed under <a class="text-white-50" href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC BY-SA 3.0</a></p>
+                <p class="text-secondary m-1">Song images and Clavor's image was created by Allen Dawodu and Alexander Guel</p>
+                <p class="text-secondary m-1">TSA Chapter photograhs by Ashley Iniguez</p>
+                <p class="text-secondary m-1">The Blanson CTE photo is from <a class="text-white-50" href="https://www.aldineisd.org/bond2015/construction_projects/cte_high_school" target="_blank">Aldine ISD</a>'s <a class="text-white-50" href="https://spark.adobe.com/page/5NGqGyKB90Z9d/" target="_blank">Adobe Spark Construction Progress</a></p>
+                <p class="text-secondary m-1">CTE Program images are from <a class="text-white-50" href="https://twitter.com/BlansonCTEHS" target="_blank">@BlansonCTEHS</a> on <a class="text-white-50" href="https://twitter.com" target="_blank">Twitter</a></p>
+            </div>
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
